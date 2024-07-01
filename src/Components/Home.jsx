@@ -52,7 +52,7 @@ const Home = () => {
         </div>
         <div className="flex items-center justify-center ">
           <button
-            className="bg-blue-600 bg-opacity-40 hover:bg-opacity-25 text-blue-600 rounded-lg font-semibold  px-3 py-2  w-max "
+            className="bg-blue-600 bg-opacity-40 hover:bg-opacity-25 text-white rounded-lg font-semibold  px-3 py-2  w-max "
             onClick={handleRedirect}
           >
             Let's Start
