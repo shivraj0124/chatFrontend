@@ -19,8 +19,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/auth/Login" element={<Login />}></Route>
-            <Route path="/auth/SignUp" element={<SignUp />}></Route>
+            <Route path="/auth/login" element={<Login />}></Route>
+            <Route path="/auth/signUp" element={<SignUp />}></Route>
             <Route path="chats" element={<MainContainer />}>
               <Route path="users" element={<Users />}></Route>
               <Route path="chat/:id" element={<Chats />}></Route>

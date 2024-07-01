@@ -47,7 +47,7 @@ function Profile() {
     setToken(storedToken ? storedToken : null);
     console.log("user",userDetails);
     if (userDetails === null) {
-      navigate("/login");
+      navigate("/auth/login");
     }
   },[])
   return ( 

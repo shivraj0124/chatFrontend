@@ -131,7 +131,7 @@ function SignUp() {
                 Submit
               </button>
               <div>
-              <Link className="cursor-pointer hover:underline underline-offset-2 decoration-1 text-center" to="/auth/Login ">
+              <Link className="cursor-pointer hover:underline underline-offset-2 decoration-1 text-center" to="/auth/login ">
                 <h2 className="text-center mt-5">
                   Already have an account ?{" "}
                   <span className="cursor-pointer text-blue-500" >

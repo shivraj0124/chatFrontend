@@ -84,7 +84,7 @@ function Login() {
                 login
               </button>
               <div className="mt-2">
-                <Link to={"/auth/SignUp"} className=" mt-3 cursor-pointer hover:underline underline-offset-2 decoration-1">
+                <Link to={"/auth/signUp"} className=" mt-3 cursor-pointer hover:underline underline-offset-2 decoration-1">
                 <span className="text-white">Don't have an account ? </span>
                   {" "}
                   <span className="cursor-pointer text-blue-500" >
